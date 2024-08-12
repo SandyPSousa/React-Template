@@ -3,9 +3,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 .container {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  background-color: blueviolet;
+  flex-direction: row;
+  justify-content: center;
+}
+.item {
+  padding: 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  margin: 5px;
+  border-radius: 5px;
 }
