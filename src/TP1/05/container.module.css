@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.ads {
+  display: flex;
+  justify-content: center;
+  border: solid 1px;
+  height: 70px;
+}
+
+.container {
+  width: 100%;
+  width: fit-content;
+  border: 2px solid;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+ 
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contextMenu {
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  border: solid 1px;
+}
+
+.header,
+.globalMenu,
+.contextMenu,
+.mainContent,
+.ads,
+.footer {
+  padding: 10px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.globalMenu {
+  display: flex;
+  border: 1px solid;
+  width: 100%;
+  justify-content: flex-start;
+}
+.header {
+  border: 1px solid;
+}
+
+.menuDiv {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  border: solid 1px;
+}
+
+.img {
+  width: 30px;
+}
+
+.hiddenHeader , .hiddenMenu{
+  display: none;
+}
+
+
+@media (min-width: 400px) {
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: fit-content;
+  border: 2px solid;
+  margin: 10px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; 
+  grid-template-rows: 1fr 1fr 3fr 1fr; 
+  grid-template-areas: 
+    "hiddenHeader hiddenHeader hiddenHeader"    
+    "hiddenMenu hiddenMenu ads"
+    "contextMenu mainContent ads"
+    "footer footer footer"; 
+}
+
+.hiddenHeader, .hiddenMenu, .contextMenu, .mainContent, .ads, .footer {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  border: 1px solid;
+  margin: 10px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.menuDiv {
+  display: none;
+ 
+}
+
+.hiddenHeader {
+  grid-area: hiddenHeader; 
+}
+
+.hiddenMenu {
+  grid-area: hiddenMenu;
+}
+.contextMenu {
+  grid-area: contextMenu;
+  height: 100%; 
+}
+
+.mainContent {
+  grid-area: mainContent; 
+  height: 100%;
+}
+
+.ads {
+  grid-area: ads; 
+  height: 100%;
+}
+
+.footer {
+  grid-area: footer; 
+}
+}
