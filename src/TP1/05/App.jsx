@@ -19,7 +19,7 @@ export default function App() {
         <h1>Header</h1>
       </div>
       <div className={style.hiddenMenu}>
-        <h1>Global Menu Escondido</h1>
+        <h1>Global Menu</h1>
       </div>
 
       <div className={style.contextMenu}>
