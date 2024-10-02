@@ -1,0 +1,64 @@
+.app {
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.galleryContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px; 
+  
+}
+
+.imageBox {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title {
+  font-family: "Lobster Two", cursive;
+  text-align: center;
+  margin: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #6f6f6f;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  width: 30px;
+  
+}
+
+button:hover {
+  background-color: #b1b1b1;
+}
+
+.span {
+  font-size: 20px;
+  padding: 10px;
+}
