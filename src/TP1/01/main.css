@@ -1,17 +1,15 @@
-
-
 li {
   list-style: none;
 }
 
 ul {
   display: flex;
-  justify-content: row;
+  justify-content: center;
   gap: 10px;
 }
 
 img {
-  width: 45px;
+  width: 35px;
   cursor: pointer;
 }
 
@@ -19,13 +17,17 @@ img {
   display: flex;
   justify-content:  space-between;
   border: 1px solid;
-  margin: 10px;
+  margin: 5px;
+  padding: 10px;
+  overflow: scroll;
+  box-sizing: border-box;
+  width: 100%;
 } 
 
 .menu {
   display: flex;
-  
+  flex-wrap: wrap;
 }
-.container nav {
-  align-items: baseline;
-}
+
+
+
