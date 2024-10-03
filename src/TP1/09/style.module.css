@@ -1,11 +1,11 @@
 .menuContainer {
-  width: 100%;
-  background: #2c3e50;
-  color: rgb(0, 0, 0);
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-bottom: 1px solid #ffffff;
+  border: solid 1px;
+  margin: 10px;
+  padding: 10px;
 }
 
 .menuHeader {
@@ -25,11 +25,6 @@
 .menuToggle {
   cursor: pointer;
   font-size: 24px;
-}
-
-.profileIcon {
-  font-size: 24px;
-  cursor: pointer;
 }
 
 .menuItems {
@@ -55,4 +50,8 @@
 
 .img {
   width: 30px;
+}
+.profileIcon {
+  font-size: 24px;
+  cursor: pointer;
 }
