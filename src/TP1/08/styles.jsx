@@ -15,7 +15,6 @@ export const ProfileSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   align-items: center;
   background: #f7f7f7;
   border-bottom: 1px solid #ddd;
@@ -38,7 +37,6 @@ export const Info = styled.div`
   h2 {
     font-size: 30px;
   }
-
   p {
     margin: 4px 0;
     color: #666;
