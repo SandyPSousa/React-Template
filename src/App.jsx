@@ -21,4 +21,4 @@ export default function App() {
             <a href="src/TP1/16/index.html">TP 1.16</a>
         </main>
     )
-} 
+}
