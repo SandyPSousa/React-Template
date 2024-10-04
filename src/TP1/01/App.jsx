@@ -1,6 +1,6 @@
 export default function App() {
   return (
-    <div class="container">
+    <div className="container">
       <div className="menu-icon">
         <img
           className="menu-img"
